@@ -5,7 +5,7 @@ import configparser
 
 # Load the configuration
 config = configparser.ConfigParser()
-config.read('config2.ini')
+config.read('weekly-hours.ini')
 
 folder_path = config.get('Paths', 'folder_path')
 file_path = config.get('Paths', 'file_path')
