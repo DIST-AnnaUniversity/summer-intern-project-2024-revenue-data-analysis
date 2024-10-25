@@ -4,7 +4,7 @@ from configparser import ConfigParser
 
 # Load configuration from config.ini
 config = ConfigParser()
-config.read('config3.ini')
+config.read('hours-difference.ini')
 
 # Read configuration values
 folder_path = config.get('Paths', 'folder_path')
